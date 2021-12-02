@@ -1,8 +1,13 @@
 //Task1
 let number1 = Number(prompt("Number1 : "));
 let number2 = Number(prompt("Number2 : "));
+if (number1==number2) {
+    alert(number1+number2);
 
-alert(number1+number2);
+}else{
+    alert(number1*3);
+}
+
 
 
 //Task2 
